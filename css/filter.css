@@ -1,3 +1,7 @@
+.filters {
+  flex-wrap: wrap;
+}
+
 .filters,
 .filters ul {
   display: flex;
@@ -33,4 +37,14 @@
   width: 24px;
   height: 24px;
   border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .filters ul li {
+    font-size: 16px;
+  }
+
+  .filters ul li i {
+    margin-right: 5px;
+  }
 }
