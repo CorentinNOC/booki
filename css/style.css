@@ -75,3 +75,9 @@ section {
 .neutral-star {
   color: var(--main-bg-color);
 }
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin: 17.5px 0;
+  }
+}

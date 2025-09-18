@@ -6,13 +6,16 @@
 }
 
 .activities a {
+  flex: 0 0 calc(100% / 4 - 15px);
   width: 100%;
 }
 
 .activities .card {
-  flex: 0 0 calc(100% / 3 - 15px);
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
+  height: 100%;
   padding: 0;
 }
 
@@ -21,8 +24,23 @@
   width: 100%;
 }
 
-.activities .activities-card .card p {
-  font-style: 16px;
+.activities .activities-card .card div {
+  flex: 1;
+  width: 100%;
+  font-size: 16px;
   font-weight: 700;
-  margin: 20px;
+  margin: 20px 0;
+}
+
+.activities .activities-card .card div p {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .activities .activities-card .card img {
+    height: 270px;
+  }
 }
