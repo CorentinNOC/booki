@@ -1,0 +1,36 @@
+.filters,
+.filters ul {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.filters ul li {
+  padding: 15px 19px;
+  border-radius: 25px;
+  border: 2px solid #d9d9d9;
+  transition: 0.5s;
+}
+
+.filters ul li:hover {
+  background-color: var(--filter-bg-color);
+  cursor: pointer;
+}
+
+.filters ul li i {
+  margin-right: 10px;
+}
+
+.fa-info {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 10px;
+  border: 1px solid #d9d9d9;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}

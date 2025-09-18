@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .nav-logo {
+  width: 60px;
+  padding: 30px 0;
+}
+
+nav .nav-menu {
+  display: flex;
+  margin-top: -8px;
+  gap: 68px;
+}
+
+nav .nav-menu a {
+  padding-top: 15px;
+  transition: 0.5s;
+  border-top: 2px solid transparent;
+}
+
+nav .nav-menu a:hover {
+  color: var(--main-color);
+  border-top: 2px solid var(--main-color);
+}

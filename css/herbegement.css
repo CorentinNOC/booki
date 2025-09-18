@@ -1,0 +1,47 @@
+.hebergements {
+  width: 65%;
+}
+
+.hebergements .more {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+.hebergements .more:hover {
+  color: var(--main-color);
+}
+
+.hebergements-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.hebergements-cards a {
+  flex: 0 0 calc(100% / 3 - 30px);
+}
+
+.hebergements-cards .card img {
+  border-radius: 20px 20px 0 0;
+  max-width: 255px;
+  width: 100%;
+}
+
+.hebergements-cards .card .card-content {
+  padding: 10px 0 15px 10px;
+}
+
+.hebergements-cards .card .card-content .card-txt > * {
+  margin: 5px 0;
+}
+
+@media (max-width: 1024px) {
+  .hebergements {
+    width: 100%;
+  }
+}

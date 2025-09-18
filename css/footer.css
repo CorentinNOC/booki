@@ -1,0 +1,25 @@
+footer {
+  background-color: var(--main-bg-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h3 {
+  margin: 0 0 15px 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+footer ul li {
+  transition: 0.5s;
+}
+
+footer ul li:hover {
+  color: var(--main-color);
+}
