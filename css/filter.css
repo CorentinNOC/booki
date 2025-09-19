@@ -48,3 +48,19 @@
     margin-right: 5px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .filters ul {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .filters ul li {
+    font-size: 14px;
+    flex: 0 0 calc(70% / 2);
+  }
+
+  .logement-info {
+    display: flex;
+  }
+}

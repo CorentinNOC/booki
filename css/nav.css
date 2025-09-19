@@ -24,3 +24,27 @@ nav .nav-menu a:hover {
   color: var(--main-color);
   border-top: 2px solid var(--main-color);
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav .nav-menu {
+    width: 100%;
+    gap: 0;
+  }
+
+  nav .nav-menu a {
+    border-top: 0;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid var(--main-bg-color);
+  }
+
+  nav .nav-menu a:hover {
+    border-top: 0;
+    border-bottom: 2px solid var(--main-color);
+  }
+}
