@@ -1,12 +1,11 @@
 .activities .activities-card {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
   margin-top: 30px;
 }
 
 .activities a {
-  flex: 0 0 calc(100% / 4 - 15px);
+  flex: 0 0 calc(100% / 4 - 30px);
   width: 100%;
 }
 
