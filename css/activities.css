@@ -47,6 +47,7 @@
 @media screen and (max-width: 768px) {
   .activities .activities-card {
     flex-direction: column;
+    gap: 15px;
   }
 
   .activities .activities-card .card img {

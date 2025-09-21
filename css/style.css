@@ -82,3 +82,15 @@ section {
     margin: 17.5px 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main-container {
+    padding: 0 10px;
+  }
+}
