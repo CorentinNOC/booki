@@ -14,13 +14,13 @@ nav .nav-menu {
   gap: 68px;
 }
 
-nav .nav-menu a {
+nav .nav-menu li {
   padding-top: 15px;
   transition: 0.5s;
   border-top: 2px solid transparent;
 }
 
-nav .nav-menu a:hover {
+nav .nav-menu li:hover {
   color: var(--main-color);
   border-top: 2px solid var(--main-color);
 }
