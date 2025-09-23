@@ -26,6 +26,10 @@
   flex: 0 0 calc(100% / 3 - 30px);
 }
 
+.hebergements-cards .card {
+  height: 100%;
+}
+
 .hebergements-cards .card img {
   border-radius: 20px 20px 0 0;
   height: 114px;
