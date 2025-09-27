@@ -36,8 +36,13 @@ nav .nav-menu li:hover {
     gap: 0;
   }
 
+  nav .nav-menu li {
+    width: 100%;
+  }
+
   nav .nav-menu a {
-    flex: 1;
+    display: block;
+    width: 100%;
     border-top: 0;
     padding: 15px 0;
     text-align: center;
