@@ -38,6 +38,11 @@ nav .nav-menu li:hover {
 
   nav .nav-menu li {
     width: 100%;
+    border-top: 0;
+  }
+
+  nav .nav-menu li:hover {
+    border-top: 0;
   }
 
   nav .nav-menu a {
