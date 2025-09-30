@@ -11,6 +11,11 @@
   }
 
   .info h1 {
+    font-size: 20px;
     margin-top: 0;
+  }
+
+  .info .text-info {
+    font-size: 15px;
   }
 }

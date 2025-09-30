@@ -32,16 +32,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .activities {
-    padding: 0 20px;
-  }
-
   .activities .activities-card .card img {
     height: 270px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .activities {
+    padding: 0 20px;
+  }
+
   .activities .activities-card {
     flex-direction: column;
     gap: 15px;

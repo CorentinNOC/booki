@@ -31,66 +31,76 @@
 
   <body>
     <div class="main-container">
-      <nav>
-        <img class="nav-logo" src="./images/logo/Booki.png" alt="logo" />
-        <ul class="nav-menu">
-          <li>
-            <a href="#hebergements">Hébergement</a>
-          </li>
-          <li>
-            <a href="#activities">Activités</a>
-          </li>
-        </ul>
-      </nav>
-      <header class="info">
-        <div>
-          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-          <p>En plein centre-ville ou en pleine nature</p>
-        </div>
-        <div class="search-bar">
-          <i class="fa-solid fa-location-dot"></i>
-          <input
-            type="search"
-            id="search"
-            name="search"
-            value="Marseille, France"
-          />
-          <label for="search"
-            ><span class="search-button-desktop">Rechercher</span>
-            <i class="fa-solid fa-magnifying-glass search-button-mobile"></i>
-          </label>
-        </div>
-        <div class="filters">
-          <p>Filtres</p>
-          <ul>
+      <!-- Header contenant le logo et la navigation -->
+      <header>
+        <!-- Barre de navigation du site -->
+        <nav>
+          <img class="nav-logo" src="./images/logo/Booki.png" alt="logo" />
+          <ul class="nav-menu">
             <li>
-              <i class="fa-solid fa-money-bill-wave"></i>
-              Économique
+              <a href="#hebergements">Hébergement</a>
             </li>
             <li>
-              <i class="fa-solid fa-child"></i>
-              Familial
-            </li>
-            <li>
-              <i class="fa-solid fa-heart"></i>
-              Romantique
-            </li>
-            <li>
-              <i class="fa-solid fa-fire"></i>
-              Nos pépites
+              <a href="#activities">Activités</a>
             </li>
           </ul>
-        </div>
-        <div class="logement-info">
-          <i class="fa-solid fa-info"></i>
-          Plus de 500 logements sont disponibles dans cette ville
-        </div>
+        </nav>
       </header>
       <main>
+        <!-- Section contenant la recherche de lieu et des filtres -->
+        <section class="info">
+          <div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="text-info">En plein centre-ville ou en pleine nature</p>
+          </div>
+          <!-- Formulaire de recherche -->
+          <form class="search-bar">
+            <i class="fa-solid fa-location-dot"></i>
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Marseille, France"
+            />
+            <label for="search"
+              ><span class="search-button-desktop">Rechercher</span>
+              <i class="fa-solid fa-magnifying-glass search-button-mobile"></i>
+            </label>
+          </form>
+          <!-- Div contenant les différents filtre de recherche -->
+          <div class="filters">
+            <p>Filtres</p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-money-bill-wave"></i>
+                Économique
+              </li>
+              <li>
+                <i class="fa-solid fa-child"></i>
+                Familial
+              </li>
+              <li>
+                <i class="fa-solid fa-heart"></i>
+                Romantique
+              </li>
+              <li>
+                <i class="fa-solid fa-fire"></i>
+                Nos pépites
+              </li>
+            </ul>
+          </div>
+          <div class="logement-info">
+            <i class="fa-solid fa-info"></i>
+            Plus de 500 logements sont disponibles dans cette ville
+          </div>
+        </section>
+        <!-- Div contenant les différents hébergements avec deux sections: une liste et les plus populaires -->
         <div id="herbegements" class="hebergements-and-populaires">
+          <!-- Section de la liste des hébergements -->
           <section class="hebergements">
             <h2 class="section-title">Hébergements à Marseille</h2>
             <div class="hebergements-cards">
+              <!-- Différent article cliquable -->
               <a href="#">
                 <article class="card">
                   <img
@@ -256,6 +266,7 @@
             </div>
             <a class="more" href="#">Afficher plus</a>
           </section>
+          <!-- Section contenant les hébergements les plus populaires pour ce lieu -->
           <section class="populaires">
             <div class="populaires-title">
               <h2 class="section-title">Les plus populaires</h2>
@@ -348,6 +359,7 @@
             </div>
           </section>
         </div>
+        <!-- Section contenant les activités disponibles pour ce lieu -->
         <section id="activities" class="activities">
           <h2 class="section-title">Activités à Marseille</h2>
           <div class="activities-card">
@@ -393,6 +405,7 @@
           </div>
         </section>
       </main>
+      <!-- Footer -->
       <footer>
         <div>
           <h3>À propos</h3>

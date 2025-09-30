@@ -100,12 +100,6 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  .main-container {
-    padding: 0 20px;
-  }
-}
-
-@media screen and (max-width: 360px) {
   body {
     margin: 0;
   }
